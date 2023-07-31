@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
 
-sleep 5 && psql -a -f database.sql && make install
+make install && psql -a -f database.sql
